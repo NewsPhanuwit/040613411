@@ -1,0 +1,185 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Anuphan',sans-serif;
+}
+
+
+/* Container */
+.container 
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.7)),url(/img/header1.png);
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+}
+  
+.logo 
+{
+    width: 130px;
+}
+  
+h2.Text 
+{
+    color: white;
+    font-size: 32px;
+    text-align: center;
+}
+
+div.Front
+{
+    font-size: larger;
+    color: white;
+    font-weight:bold;
+    padding-top: 25vh;
+    padding-left: 60vh;
+    
+}
+
+.read
+{
+    width: 200px;
+    padding-top: 20px;
+}
+
+/* ------------------- DataPage -------------------*/
+
+.Data
+{
+    width: 100%;
+    height: 20vh;
+    text-align: center;
+    padding-top: 5vh;
+    font-size: larger;
+}
+
+section.Data
+{
+    background-color: #121212;
+    height: 2800px;
+    z-index: -2;
+}
+
+.Topic
+{
+    color: white;
+}
+
+/* section.Herb
+{
+    
+    display: flex;
+    align-items: center;
+    
+} */
+
+div.Herb
+{
+    align-items: center;
+    display: flex;
+    margin-top: 70px;
+    padding-left: 3%;
+    padding-right: 3%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pic-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    margin: 0 10px; 
+}
+
+.pic
+{
+    width: 420px;
+    transition: transform 0.5s;
+}
+
+.pic:hover
+{
+    transform: translateY(-10px);
+
+}
+
+.name
+{
+    color: white;
+    font-weight: 400;
+    font-size: larger;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.read {
+    width: 200px;
+    padding-top: 20px;
+    transition: transform 0.7s;
+}
+
+.animate {
+    transform: translateY(-2px);
+}
+
+
+
+/* Credits */
+.Credit
+{
+    width: 100%;
+    height: 380px;
+    background-image: url(/img/Credits.png);
+}
+
+.Topic1
+{
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+
+
+/* Box-Info */
+.Blur
+{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.7);
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(3px);
+    padding: 10px;
+    z-index: 9997;
+    position: fixed;
+    cursor: pointer;
+}
+
+.Box
+{
+    width: 900px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(2px);
+    position: fixed;
+    z-index: 9999;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    
+}
+
+.LogoCredit
+{
+    width: 220px;
+    padding-top: 40px   ;
+}
