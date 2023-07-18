@@ -3,20 +3,24 @@
     <head>
         <title>Document</title>
         <style>
-            h1
-            {
-                margin-top: 80px;
+            table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 0 auto;
             }
-            title
+
+            th, td 
             {
-                text-align: center;
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
             }
-            .custom-table
+
+            th 
             {
-                border-collapse: collapse;
-                border: 1px;
-                width: 100%;
+            background-color: #f2f2f2;
             }
+            
         </style>
     </head>
     <body>
@@ -27,19 +31,33 @@
         </center>
         <table class="custom-table">
             <caption><center>Data about the planets of our solar system &#40;Planetary facts taken from <a href="https//nssdc.gsfc.nasa.gov/planetary/factsheet/">Nasa's Planetary Fact Sheet - Metric</a>&#41;.<br><br></center></caption>
-            <tr>
-                <td rowspan="2"></td>
-                <td>Name</td>
-                <td>Mass<br>&#40;10<sup>24</sup>kg&#41;</td>
-                <td>Diameter<br>(km)</td>
-                <td>Density<br>&#40;kg/m<sup>3</sup>&#41;</td>
-                <td>Gravity<br>&#40;m/s<sup>2</sup>&#41;</td>
-                <td>Length<br>of day<br>&#40;hours&#41;</td>
-                <td>Distance<br>from Sun<br>&#40;10<sup>6</sup>km&#41;</td>
-                <td>Mean<br>temperature<br>&#40;10<sup>6</sup>km&#41;</td>
-                <td>Number<br>of<br>moons</td>
-                <td>Notes</td>
+            <tr> 
+                <th colspan="2"></th>
+                <th style="border-width: 3px;">Name</th>
+                <th>Mass <br>(10<sup>24</sup> kg)</th>
+                <th>Diameter<br>(km)</th>
+                <th>Density<br>(kg/m&sup3;)</th>
+                <th>Gravity<br>(m/s&sup2;)</th>
+                <th>Length of day<br>(hours)</th>
+                <th>Distance from sun<br>(10<sup>6</sup>km)</th>
+                <th>Mean temperature<br>(&#8451;)</th>
+                <th>Number of moons</th>
+                <th>Notes</th>
             </tr>
+            <tr>
+                <td rowspan="4" colspan="2">Terrestrial planets</td>
+                <td style="border-width: 3px;">Mercury</td>
+                <td>0.330</td>
+                <td>4,879</td>
+                <td>5427</td>
+                <td>3.7</td>
+                <td>4222.6</td>
+                <td>57.9</td>
+                <td>167</td>
+                <td>0</td>
+                <td>Closest to the sun</td>
+            </tr>
+
 
         </table>
 
