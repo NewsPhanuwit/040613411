@@ -169,14 +169,21 @@ a.Custom
 
 .Banner
 {
-
     top: 0;
     left: 0;
     position: relative;
     z-index: 4;
     bottom: 0;
-    min-width: 100%; 
-    min-height: 100%;
+    /* min-width: 100%; 
+    min-height: 100%; */
+    
+}
+
+.VdoBanner
+{
+    width: 100%;
+    height: var(--doc-height, 100vh);
+    object-fit: cover;
 }
 
 Shop
