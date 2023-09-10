@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+    </style>
+    <script>
+        function textcolor(inputId) {
+            var input = document.getElementById(inputId);
+            var successColor = "green";
+
+            if (input.value !== "") {
+                input.style.color = successColor;
+            }
+        }
+    </script>
+</head>
+<body>
+    Name: <input type="text" id="name" oninput="textcolor('name')"><br>
+    Age: <input type="text" id="age" oninput="textcolor('age')"><br>
+    Birthdate: <input type="text" id="birthdate" oninput="textcolor('birthdate')"><br>
+</body>
+</html>
